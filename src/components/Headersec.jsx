@@ -7,7 +7,7 @@ import arrow4 from "../assets/images/arrow-4.png";
 const Headersec = () => {
   return (
     <div className="relative max-lg:bg-[#FFB23C]">
-      <div className="xl:pt-72 xl:pb-96 lg:py-44 md:py-40 py-8 relative">
+      <div className="xl:pt-64 xl:pb-96 lg:py-44 md:py-40 py-8 relative">
         <div className="container max-w-[1140px] mx-auto px-3">
           <div className="flex flex-row flex-wrap -mx-3 items-center">
             <div className="lg:w-1/2 w-full px-3">
