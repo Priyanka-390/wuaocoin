@@ -39,7 +39,7 @@ const Headersec = () => {
               <img
                 src={imgage}
                 alt="image"
-                className="w-full xl:translate-x-28"
+                className="w-full xl:translate-x-20"
               />
             </div>
           </div>

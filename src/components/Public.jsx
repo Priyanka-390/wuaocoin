@@ -24,6 +24,7 @@ const Public = () => {
       setTime(timeTaken);
     }, 0);
   }, []);
+    
   return (
     <div>
       <div className="container max-w-[1140px] md:pb-20 sm:pb-14 pb-10 mx-auto px-3">
