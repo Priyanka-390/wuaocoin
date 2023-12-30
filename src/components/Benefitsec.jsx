@@ -12,34 +12,23 @@ const Benefitsec = () => {
             Benefits
           </h2>
         </div>
-        <div className="flex flex-row flex-wrap -mx-3">
-          <div className="lg:w-1/3 md:w-1/2 w-full lg:pt-[52px] md:pt-10 pt-6 px-3 flex flex-col justify-center">
-            <img src={img1} alt="img1" />
-            <div className="flex justify-center items-center">
-              <p className="max-w-[330px] text-center pt-3 text-black opacity-70 font-montserrat sm:text-lg text-base font-normal ">
-                Services, Products and Community All in one place!
-              </p>
-            </div>
+        <div className="flex flex-row flex-wrap -mx-3 pt-8">
+          <div className="lg:w-1/3 sm:w-1/2 w-full  px-3 flex justify-center flex-col items-center mb-5 md:mb-0">
+            <div className="bg-[#FBF3E6] overflow-hidden p-5 animate-wiggle-view "><img src={img1} alt="img3" /></div>
+            <p className="lg:text-lg text-[14px] pt-2 font-montserrat text-center lg:opacity-70 text-black max-w-[317px] mx-auto ">
+              Services, Products and Community All in one place!
+            </p>
           </div>
-          <div className="lg:w-1/3 md:w-1/2 w-full lg:pt-[52px] md:pt-10 pt-6 px-3 flex flex-col justify-center">
-            <img src={img2} alt="img3" />
-            <div className="flex justify-center items-center">
-              <p className="max-w-[272px] text-center pt-3 text-black opacity-70 font-montserrat sm:text-lg text-base font-normal ">
-                Selling in crypto will no longer be complicated, it will be safe
-                and reliable.
-              </p>
-            </div>
+          <div className="lg:w-1/3 sm:w-1/2 w-full px-3 flex justify-center flex-col items-center mb-5 md:mb-0">
+            <div className="bg-[#FBF3E6] overflow-hidden animate-wiggle-view "><img src={img2} alt="img3" /></div>
+            <p className="lg:text-lg text-[14px] pt-2 font-montserrat text-center lg:opacity-70 text-black max-w-[272px] mx-auto">
+              Selling in crypto will no longer be complicated, it will be safe
+                          and reliable.
+            </p>
           </div>
-          <div className="lg:w-1/3 w-full lg:pt-[52px] md:pt-10 pt-6 px-3 flex flex-col justify-center">
-            <div className="flex justify-center flex-col items-center">
-              <img src={img3} alt="img3" className="md:w-[50%] w-full lg:w-full" />
-              <div className="flex justify-center items-center">
-                <p className="max-w-[288px] text-center pt-3 text-black opacity-70 font-montserrat sm:text-lg text-base font-normal ">
-                  Buying and getting a real discount is possible? Join and check
-                  it out.
-                </p>
-              </div>
-            </div>
+          <div className="lg:w-1/3 w-full px-3 flex justify-center flex-col items-center mb-5 md:mb-0">
+                      <div className="bg-[#FBF3E6] overflow-hidden animate-wiggle-view "><img src={img3} alt="img3" /></div>
+                      <p className="lg:text-lg text-[14px] font-montserrat text-center lg:opacity-70 text-black max-w-[288px] pt-2 mx-auto">Buying and getting a real discount is possible? Join and check it out.</p>
           </div>
         </div>
       </div>
